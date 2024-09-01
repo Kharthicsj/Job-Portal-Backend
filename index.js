@@ -18,7 +18,7 @@ const pool = new Pool({
 });
 
 const corsOptions = {
-    origin: ['http://localhost:3000','https://job-portal-0eg0.onrender.com/'],
+    origin: ['http://localhost:3000','https://job-portal-0eg0.onrender.com'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type']
 };
